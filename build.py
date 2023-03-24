@@ -92,4 +92,4 @@ if __name__ == "__main__":
         env=env,
     )
 
-    builder.create_package(args)
+    builder.create_package(args, args.install_prefix)
